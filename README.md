@@ -4,8 +4,6 @@ Drop your video into Claude, type `/effects` and the name of an effect. That's t
 
 Made by [@veersoni](https://github.com/Veersoni)
 
-![All 45 effects](assets/preview.jpg)
-
 ## Install (one line)
 
 Open the Terminal app (or the terminal inside Claude Code) and paste:
