@@ -2,7 +2,7 @@
 
 Drop your video into Claude, type `/effects` and the name of an effect. That's the whole edit.
 
-Made by [@vibha.in.progress](https://instagram.com/vibha.in.progress) 💛
+Made by [@veersoni](https://github.com/Veersoni)
 
 ![All 45 effects](assets/preview.jpg)
 
@@ -11,14 +11,14 @@ Made by [@vibha.in.progress](https://instagram.com/vibha.in.progress) 💛
 Open the Terminal app (or the terminal inside Claude Code) and paste:
 
 ```bash
-git clone https://github.com/Vibha-Ramprakash/claude-video-effects ~/.claude/skills/effects
+git clone https://github.com/Veersoni/video-effects ~/.claude/skills/effects
 ```
 
 On Windows (PowerShell), use `$HOME\.claude\skills\effects` instead of `~/.claude/skills/effects`.
 
 Then restart Claude Code. That's it.
 
-> Not sure how? Open Claude Code and paste: **"Install the skill from github.com/Vibha-Ramprakash/claude-video-effects into ~/.claude/skills/effects"**. Claude will do it for you.
+> Not sure how? Open Claude Code and paste: **"Install the skill from github.com/Veersoni/video-effects into ~/.claude/skills/effects"**. Claude will do it for you.
 
 ## Use it
 
@@ -104,10 +104,11 @@ Every effect follows your face. Anything that would cover your face goes behind 
 - These are **starter versions**. They won't match the exact edit in my reel, which also has sound design and hand-tuned timing.
 - It drafts, you approve. Watch the result before you post.
 - No sounds or captions are added. Add those in CapCut.
-- My full edit style is coming later. Follow [@vibha.in.progress](https://instagram.com/vibha.in.progress) to hear first.
 
 ## If something goes wrong
 Just tell Claude what you see ("the word covers my face", "it's too fast"). It will fix the plan and render again.
 
 ## Credits
+Based on [claude-video-effects](https://github.com/Vibha-Ramprakash/claude-video-effects) by Vibha Ramprakash (MIT).
+
 Face tracking: [OpenCV YuNet](https://github.com/opencv/opencv_zoo) (MIT). Person cut-out: [MediaPipe Selfie Segmenter](https://ai.google.dev/edge/mediapipe/solutions/vision/image_segmenter) (Apache 2.0). Fonts: Archivo Black, Instrument Serif, Space Mono, Inter, Anton, Montserrat (SIL OFL) and Permanent Marker (Apache 2.0); licences are in `fonts/`. Everything else: MIT, see `LICENSE`.
